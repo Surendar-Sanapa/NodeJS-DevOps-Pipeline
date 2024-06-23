@@ -1,7 +1,7 @@
 pipeline { 
     environment { 
         registry = "surendarsanapa123/dockerimages" 
-        registryCredential = 'docker-token' 
+        registryCredential = 'dockertoken' 
         dockerImage = ''
     }
     agent any 
